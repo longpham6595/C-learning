@@ -31,6 +31,9 @@ struct Point
     long long id;
     bool visited;
 };
+
+vector<Point> villagesCoor;
+
 struct Node
 {
     Point point;
@@ -46,9 +49,15 @@ bool compareY(const Point &a, const Point &b)
     return a.y < b.y;
 }
 
+bool compareDist(const pair<double, Point> &a, const pair<double, Point> &b)
+{
+    return a.first < b.first;
+}
 class KDTree
 {
 public:
+    Node *root;
+    unordered_map<long long, Node *> nodeMap;
     KDTree(const vector<Point> &points)
     {
         root = buildKDTree(points, 0);
@@ -57,7 +66,7 @@ public:
     {
         return findNearestPoint(root, target, 0, {numeric_limits<double>::max(), numeric_limits<double>::max()});
     }
-    Node *root;
+
     Node *buildKDTree(vector<Point> points, int depth)
     {
         if (points.empty())
@@ -69,23 +78,28 @@ public:
             sort(points.begin(), points.end(), compareY);
         int median = points.size() / 2;
         Node *node = new Node{points[median], nullptr, nullptr};
+        nodeMap[node->point.id] = node; // Store node in the map
         vector<Point> leftPoints(points.begin(), points.begin() + median);
         vector<Point> rightPoints(points.begin() + median + 1, points.end());
         node->left = buildKDTree(leftPoints, depth + 1);
         node->right = buildKDTree(rightPoints, depth + 1);
         return node;
     }
+    // Distance return 0 if there is an old way from a to b, else return sqrt((a.x - b.x)^2 + (a.y - b.y)^2)
+    // if there must be a new way to be created from a to b
     double distance(const Point &a, const Point &b)
     {
-        return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
+        return (way[{a.id, b.id}] ? 0 : sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y)));
     }
+    // Return a closest point to the given target point, if there is an old way from target to a point that
+    // is not visited then distance will be 0 and this point will be returned
     Point findNearestPoint(Node *node, const Point &target, int depth, Point best)
     {
         if (!node)
             return best;
-        double d = distance(node->point, target);
-        double bestDist = distance(best, target);
-        if (d < bestDist && !node->point.visited)
+        double d = (way[{node->point.id, target.id}] ? 0 : distance(node->point, target));
+        double bestDist = (way[{best.id, target.id}] ? 0 : distance(best, target));
+        if (d < bestDist && !node->point.visited && node->point.id != target.id)
         {
             best = node->point;
         }
@@ -107,15 +121,65 @@ public:
             best = findNearestPoint(otherBranch, target, depth + 1, best);
         return best;
     }
+
+    void markNodeVisited(long long id)
+    {
+        if (nodeMap.find(id) != nodeMap.end())
+        {
+            nodeMap[id]->point.visited = true;
+        }
+    }
+
+    // Print all node
+    void printVisitedNodes(Node *node)
+    {
+        if (!node)
+            return;
+        printVisitedNodes(node->left);
+        std::cout << "Node ID: " << node->point.id << ", Visited: " << (node->point.visited ? "true" : "false") << std::endl;
+        printVisitedNodes(node->right);
+    }
+
+    void printAllVisitedNodes()
+    {
+        printVisitedNodes(root);
+    }
 };
 
 // End of KD Tree
 
-// Start Prim Algorithm
+// Start Prim Algorithm for minimum span tree
+void PrimMST(KDTree &tree)
+{
+    double resDistance = 0;
+    Point tempt;
+    vector<Point> mst;
+    vector<pair<double, Point>> minEdge;
 
+    mst.push_back(tree.root->point);
+    tree.markNodeVisited(mst[0].id);
+
+    while (mst.size() < n)
+    {
+        minEdge.clear();
+
+        for (long long i = 0; i < mst.size(); i++)
+        {
+            tempt = tree.findNearestPoint(mst[i]);
+            minEdge.push_back({tree.distance(mst[i], tempt), tempt});
+        }
+
+        sort(minEdge.begin(), minEdge.end(), compareDist);
+
+        mst.push_back(minEdge[0].second);
+        tree.markNodeVisited(minEdge[0].second.id);
+
+        resDistance += minEdge[0].first;
+    }
+    printf("%.3f\n", resDistance);
+}
 // End Prim Algorithm
 
-vector<Point> villagesCoor;
 int main()
 {
     fast_io;
@@ -139,16 +203,11 @@ int main()
         way[{x, y}] = way[{y, x}] = true;
     }
 
-    // villagesCoor[1].visited = true;
-
     // Init Tree and test Tree
     KDTree tree(villagesCoor);
-    Point target = {3, 2}, ans;
-    ans = tree.findNearestPoint(target);
-    cout << "NEAREST POINT: ID = " << ans.id << "; COORS: (" << ans.x << "; " << ans.y << "); " << endl;
-    cout << tree.distance(target, ans) << endl;
 
     // Prim
+    PrimMST(tree);
 
     // getchar();
 }
