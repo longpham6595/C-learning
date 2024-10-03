@@ -15,7 +15,8 @@ using namespace std;
 // #define LOCAL
 //============================================================================
 // START PROGRAM
-// Bai 1: Chu so trong day lien tuc (4 diem)
+// Bai 1: Chu so trong day lien tuc (4 pts)
+// 10 test cases: 0.4 pts/test case
 //============================================================================
 long long n, num;
 long long numQ(long long x)

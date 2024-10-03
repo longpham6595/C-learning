@@ -16,7 +16,7 @@ using namespace std;
 //============================================================================
 // START PROGRAM
 //============================================================================
-long long n, tempt;
+long long n, a[1008], maxIt = 0;
 string st = "";
 
 int main()
@@ -27,15 +27,19 @@ int main()
     freopen("output.txt", "w", stdout);
 #endif
     // MAIN PROGRAM
-    // build st
-    for (int i = 1; i <= 9e18; i++)
-        st += to_string(i);
+
     // Solve
     cin >> n;
     for (int i = 0; i < n; i++)
     {
-        cin >> tempt;
-        cout << st[tempt - 1] << "\n";
+        cin >> a[i];
+        maxIt = max(maxIt, a[i]);
     }
+    // build st
+    for (int i = 1; i <= maxIt; i++)
+        st += to_string(i);
+    // Cout results
+    for (int i = 0; i < n; i++)
+        cout << st[a[i]-1] << "\n";
     // getchar();
 }
