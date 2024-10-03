@@ -20,18 +20,15 @@ using namespace std;
 long long n, num;
 long long numQ(long long x)
 {
-    long long cs = 1, powUp = 9, desNum;
+    long long cs = 1, powUp = 1, desNum;
     string st;
     while (x > cs * 9 * powUp)
         x -= cs++ * 9 * powUp, powUp *= 10;
-    desNum = powUp + (x % cs ? 0 : -1) + x / cs;
+    desNum = powUp + x / cs;
     if (x % cs == 0)
-        return desNum % 10;
-    pos = x % cs - 1;
-    // cout << k << " " << cs << " " << x << " " << pos << " " << desNum << "\n";
+        return (desNum - 1) % 10;
     st = to_string(desNum);
-    reverse(st.begin(), st.end());
-    return st[pos] - '0';
+    return st[x % cs - 1] - '0';
 }
 
 int main()
@@ -43,11 +40,11 @@ int main()
 #endif
     // MAIN PROGRAM
     cin >> n;
-    // cout << numQ(672274832941907421);
     for (int i = 0; i < n; i++)
     {
         cin >> num;
         cout << numQ(num) << "\n";
     }
+
     // getchar();
 }
