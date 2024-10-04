@@ -1,0 +1,180 @@
+\documentclass[12pt,a4paper,twoside]{book}
+\usepackage{amsmath,amssymb,yhmath,mathrsfs}
+\usepackage{enumerate}
+\usepackage{tkz-euclide}
+\usepackage{tikz-3dplot}
+\usepackage{tikz,tkz-tab}
+\usetikzlibrary{shapes.geometric,arrows,calc,intersections,angles,patterns,snakes,shadows,3d}
+%\usetkzobj{all}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{compat=1.9}
+\usepackage[top=1.5cm, bottom=2cm, left=1.5cm, right=1.5cm] {geometry}
+\usepackage[hidelinks,unicode,hypertexnames=false]{hyperref}
+\usepackage{currfile}
+\usepackage{framed}
+\usepackage[many]{tcolorbox}
+\usepackage{esvect}
+\usepackage{lastpage}
+
+\def\vec{\vv}
+\def\overrightarrow{\vv}
+
+
+\newcommand{\hoac}[1]{\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{\left\{\begin{aligned}#1\end{aligned}\right.}
+
+\usepackage[book]{ex_test}
+
+\usepackage{titlesec,pifont,fontawesome}
+
+
+
+%Định nghĩa đề
+\def\de{930}
+\def\tenfile{minitest03-data.tex}
+\def\testname{KÌ THI TUYỂN HỌC SINH GIỎI VÒNG TRƯỜNG}
+
+\assignpagestyle{\part}{fancy}
+\assignpagestyle{\chapter}{fancy}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+\futurelet\TMPfootrule\def\footrule{{\color{cyan}\TMPfootrule}}
+\renewtheorem{ex}{\fontfamily{qag}\selectfont\color{cyan}Câu}
+\def\loigiaiEX{\fontfamily{qag}\selectfont\color{cyan}\ding{45}~Lời giải.\textcolor{white}{\href{https://www.fb.com/groups/toanvalatex/}{Nhom Toan va LaTeX}}}
+\def\qedEX{\color{cyan}\ensuremath{\square}}
+\renewcommand{\FalseEX}{\stepcounter{dapan}\textbf{\fontfamily{qag}\selectfont\color{cyan}\Alph{dapan}.}\ignorespaces}
+
+\renewtheorem{ex}{\fontfamily{qag}\selectfont\color{cyan}Bài}
+
+\renewcommand{\circEX}[1]{\tikz[baseline=(nhh.base)]\path node[cyan,draw,thick,inner sep = 0.5mm,fill=green!10,circle,font=\fontfamily{qag}\bfseries\selectfont](nhh){#1};}
+
+\titleformat{\part}[display]
+{\Large\bfseries\color{cyan}}{
+	\setcounter{chapter}{0}
+	\centering
+	\begin{tikzpicture}
+	\fill[cyan,rounded corners=2mm,scale=1.4] (-1,-1) rectangle (1,1);
+	\draw(0,2)node{\fontfamily{ccr}\selectfont\Large PHẦN};
+	\draw(0,0)node{\color{white}\fontsize{60pt}{1pt}\selectfont\thepart};
+	\end{tikzpicture}
+}
+{0.5em}
+{\titlerule[2.5pt]\vskip3pt\titlerule\vskip4pt\centering\fontsize{60pt}{1pt}\fontfamily{qhv}\selectfont\MakeUppercase}
+
+\newcounter{sttex}
+\setcounter{sttex}{0}
+\RenewEnviron{Solution}[1]{
+	\stepcounter{sttex}
+	\begin{minipage}{0.08\textwidth}
+		\ifnum\thesttex<10\def\sttkc{\hspace*{1.15ex}}
+		\else\def\sttkc{\hspace*{0ex}}\fi
+		\noindent\tikz\path node[draw,minimum width = 1.5cm]{\fontfamily{lmtt}\bfseries\selectfont\sttkc\thesttex.\BODY};
+	\end{minipage}
+}
+
+\RenewEnviron{Solbook}[1]{
+\par\noindent{\bf\fontfamily{qag}\selectfont\color{cyan}Bài  #1.}\par
+\BODY
+}
+
+\newcommand{\indapan}[2]{
+	\begin{center}
+		\tikz\path node[draw=cyan,thick,rounded corners = 1mm]{\color{cyan}\fontfamily{qag}\bfseries\selectfont GIẢI CHI TIẾT MÃ ĐỀ \color{cyan}\circled{\de}};\\[3mm]
+		\input{#2}
+	\end{center}
+}
+
+
+
+\def\foot#1{\fontfamily{qag}\selectfont\color{cyan}#1}
+\newcommand{\name}[2]{
+	\newpage\setcounter{ex}{0}\setcounter{sttex}{0}
+	\begin{tcolorbox}[boxrule=1.5pt,arc=1mm,breakable,colframe=cyan,colback=yellow!20]
+		\begin{minipage}[t]{0.35\textwidth}
+			\begin{center}
+				\textcolor{cyan}{\bf\fontfamily{qag}\selectfont#1} \\
+				\tikz\draw[cyan,thick] (0,0)--(4,0) node[midway,below]{\bf\fontfamily{qag}\selectfont ĐỀ THI CHÍNH THỨC}; \\
+				\textit{(Đề thi gồm có $5$ bài, \pageref{LastPage} trang)}
+			\end{center}
+		\end{minipage}
+		\begin{minipage}[t]{0.65\textwidth}
+			\begin{center}
+				\textcolor{magenta}{\bfseries\fontfamily{qag}\selectfont #2} \\
+				\textit{Thời gian làm bài: 120 phút (Không kể thời gian phát đề)} 
+				%\tikz\path node[draw,rounded corners = 1mm] {\bf\fontfamily{anttlc}\selectfont Mã đề: \de};
+			\end{center}
+		\end{minipage}
+	\end{tcolorbox}
+	\addcontentsline{toc}{section}{ĐỀ HỌC SINH GIỎI VÒNG TRƯỜNG}
+	\lfoot{\foot{\href{https://www.fb.com/groups/toanvalatex/}{Nhóm Toán và \LaTeX}}}
+	\rfoot{\foot{Trang \thepage}}
+}
+\usepackage[final]{pdfpages}
+%\definecolor{cyan}{RGB}{255,0,0}
+%\definecolor{magenta}{RGB}{255,0,0}
+
+%Định nghĩa lại immini
+\renewcommand{\immini}[3][]{
+	\hfil\par
+	\begin{center}
+		#3
+	\end{center}
+	#2
+}
+\def\kcchoie{\vspace*{1cm}}%Khoảng cách \choice so với đề
+\renewcommand{\baselinestretch}{1.2}%Khoảng cách dòng 
+
+\begin{document}
+%\pagenumbering{gobble}%tắt đánh số trang
+%\includepdf[pages=-]{biasach/biasach}%chèn bìa pdf
+%\includepdf[pages=-]{DapAnChinhThuc}
+%\pagenumbering{arabic}
+%\tableofcontents
+
+%\part{ĐỀ THI}
+%Sửa mã đề 
+\foreach \ts in {\de}{
+%	\Opensolutionfile{ansbook}[ans/ansbookMyLT\ts]
+	\input{data/\tenfile}
+%	\Closesolutionfile{ansbook}
+}
+
+%%Header
+%\begin{name}
+%	{KVE \\ Nhóm Toán và \LaTeX}
+%	{\testname \\ Bài thi: TOÁN}
+%\end{name}
+%
+%%Chú ý: Đây là dữ liệu mẫu, không phải đề chính thức
+%
+%Xóa dòng bên dưới, chừa lại dòng \Opensolutionfile{ans}[ans/**] của file gốc
+%\Opensolutionfile{ans}[ans/ans-THPTQG2020-101]
+%
+%
+%%Footer
+%\Closesolutionfile{ans}
+
+
+
+
+
+
+\begin{center}
+\bfseries\bf\fontfamily{qag}\selectfont	----------- HẾT -----------
+\end{center}
+
+
+%\part{LỜI GIẢI CHI TIẾT}
+%Sửa mã đề 
+%	\begin{name}
+%		{KVE \\ Nhóm Toán và \LaTeX}
+%		{\testname  \\ Bài thi: TOÁN}
+%	\end{name}
+%	\begin{indapan}{10}
+%		{ans/ansMyLT\de}
+%	\end{indapan}
+%	\input{ans/ansbookMyLT\de}
+\end{document}

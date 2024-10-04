@@ -1,0 +1,64 @@
+\begin{name}
+	{SỞ GD\&ĐT LONG AN \\ TRƯỜNG THPT ĐỨC HOÀ}
+	{\testname \\ Môn thi: TIN HỌC - Cấp THPT}
+\end{name}
+%\Opensolutionfile{ans}[ans/ansMyLT930]
+
+\textit{Học sinh tạo thư mục là họ tên và lớp (viết liền không dấu, VD: votansach\_11TN1), lưu các bài làm với tên tương ứng bai1.???, bai2.???, bai3.??? vào thư mục vừa tạo (dấu ??? được thay bằng phần mở rộng của ngôn ngữ lập trình dùng để viết chương trình).\\
+Hãy lập trình giải các bài toán bên dưới.}
+
+\begin{ex}
+	\textbf{(4 điểm) Chữ số trong chuỗi số nguyên}\\
+	Xét một chuỗi vô hạn bao gồm tất cả các số nguyên dương theo thứ tự tăng dần: 
+	$$12345678910111213141516171819202122232425\cdots$$
+	\textbf{Yêu cầu: }Hãy xử lý $q$ truy vấn có dạng: Chữ số ở vị trí $k$ trong chuỗi là gì?\\
+	\textbf{Ví dụ: } Với $k=11$ thì xuất ra $0$.\\
+	\textbf{Dữ liệu vào: } Từ tập tin \textit{\textbf{bai1.in}} gồm: 
+	\begin{itemize}
+		\item Dòng đầu tiên của đầu vào là số nguyên $q$: số lượng truy vấn. 
+		\item $q$ dòng sau đó mô tả các truy vấn. Mỗi dòng có một số nguyên $k$: một vị trí được đánh chỉ số trong chuỗi. 
+	\end{itemize}
+	\textbf{Dữ liệu ra: } Xuất ra tập tin \textit{\textbf{bai1.out}} $q$ dòng tương ứng với $q$ truy vấn.\\
+	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq q \leq 1000; 1 \leq k \leq 10^{18}$.\\
+	 Trong đó: 
+	$25\%$ test cases có $k \leq 10^7$,  $50\%$ test cases có $k \leq 10^9$,  $75\%$ test cases có $k \leq 10^{13}$\\
+	\textbf{Ví dụ: }
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textit{\textbf{bai1.in}} & \textit{\textbf{bai1.out}} \\
+			\hline
+			3 & 7\\
+			7 & 4 \\
+			19 & 1 \\
+			12 & \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{ex}
+
+\begin{ex}
+	\textbf{(4 điểm) Tổng hai số trong dãy}\\
+	Bạn được cho một mảng gồm $n$ số nguyên. \\
+	\textbf{Yêu cầu: } Tìm hai giá trị (ở vị trí khác nhau) mà tổng của chúng là $x$.\\
+	\textbf{Dữ liệu vào: } Từ tập tin \textbf{\textit{bai2.in}} gồm: 
+	\begin{itemize}
+		\item Dòng đầu tiên chứa hai số nguyên $n$ và $x$: kích thước của mảng và tổng mục tiêu. 
+		\item Dòng thứ hai chứa $n$ số nguyên $a_1; a_2; \cdots; a_n$: các giá trị trong mảng. 
+	\end{itemize}
+	\textbf{Dữ liệu ra: } Xuất ra tập tin \textbf{\textit{bai2.out}}: 
+	In ra hai số nguyên: vị trí của các giá trị. Nếu có nhiều cách giải, bạn có thể in ra bất kỳ cách nào. Nếu không có cách giải, in ra \textbf{IMPOSSIBLE}. \\
+	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq n \leq 2 \cdot 10^5; 1 \leq x , a_i \leq 10^9$. \\
+	Trong đó: $25\%$ test cases có $n \leq 10; x \leq 10; a_i \leq 10$; $50\%$ test cases có $n \leq 2\cdot 10^5; x \leq 10^{10}; a_i \leq 10^{10} $
+	\textbf{Ví dụ: }
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{\textit{bai2.in}} & \textbf{\textit{bai2.out}}\\
+			\hline
+			4 8 & 2 4 \\
+			2 7 5 1 & \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{ex}
