@@ -12,7 +12,7 @@ using namespace std;
     cin.tie(0);                   \
     cout.tie(0);
 // Define local for input and output files
-// #define LOCAL
+#define LOCAL
 //============================================================================
 // START PROGRAM
 //============================================================================
@@ -50,9 +50,7 @@ int main()
     for (int i = 1; i <= n; i++)
         cin >> x[i];
     sort(x, x + n + 1);
-    // for (int i = 0; i < n + 1; i++)
-    //     cout << x[i] << " ";
-    // cout << "\n";
+
     cin >> q;
     for (int i = 0; i < q; i++)
     {
