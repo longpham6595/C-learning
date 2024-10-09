@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.9)  4 OCT 2024 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.9)  9 OCT 2024 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,8 +869,18 @@ Overfull \hbox (38.84421pt too wide) in paragraph at lines 8--9
  []
 
 
+Overfull \hbox (38.84421pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 bai3.???,
+ []
+
+
+Overfull \hbox (38.84421pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 bai4.???,
+ []
+
+
 Overfull \hbox (35.77756pt too wide) in paragraph at lines 8--9
-\OT1/cmr/m/it/10 bai3.???
+\OT1/cmr/m/it/10 bai5.???
  []
 
 
@@ -979,8 +989,33 @@ Overfull \hbox (19.9332pt too wide) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (28.49426pt too wide) in paragraph at lines 8--9
-\OT1/cmr/m/it/10 tr^^R^^Pnh). 
+Overfull \hbox (24.4054pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 tr^^R^^Pnh,
+ []
+
+
+Overfull \hbox (18.04988pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 VD:
+ []
+
+
+Overfull \hbox (38.33308pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 bai1.cpp,
+ []
+
+
+Overfull \hbox (37.31087pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 bai1.pas,
+ []
+
+
+Overfull \hbox (33.47755pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 bai1.py,
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 ...). 
  []
 
 
@@ -2469,7 +2504,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 	\textbf{Ràng buộc: }
-                              Ràng buộc chung cho bài toán này: $1 \le...
+                              Ràng buộc chung: $1 \leq q \leq 1000; 1 \le...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2488,7 +2523,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 	\textbf{Ràng buộc: } Ràng buộ
-                                         c chung cho bài toán này: $1 \le...
+                                         c chung: $1 \leq q \leq 1000; 1 \le...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2499,16 +2534,6 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no y in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
@@ -2618,21 +2643,6 @@ Overfull \hbox (26.354pt too wide) in paragraph at lines 21--26
 
 Overfull \hbox (21.08322pt too wide) in paragraph at lines 21--26
 \OT1/cmr/bx/n/10 buc:
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--26
-\/cmr/m/n/10 ^^Ra
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--26
-\/cmr/m/n/10 ^^Ra
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--26
-\/cmr/m/n/10 ^^Sa
  []
 
 
@@ -2755,17 +2765,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
 
-Overfull \hbox (75.26129pt too wide) in paragraph at lines 27--37
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 29.
+
+
+Overfull \hbox (67.2642pt too wide) in paragraph at lines 27--37
  [] 
  []
 
@@ -3956,11 +3961,79 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.51 	\textbf{Ràng buộc: }
-                              $1 \leq n \leq 2 \cdot 10^5; 1 \leq x , a_i \l...
+                              Ràng buộc chung: $1 \leq n \leq 2 \cdot 10^...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+Missing character: There is no R in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no u in font nullfont!
+
+! LaTeX Error: Unicode character ộ (U+1ED9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 	\textbf{Ràng buộc: } Ràng buộ
+                                         c chung: $1 \leq n \leq 2 \cdot 10^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: Command \dj unavailable in encoding .
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 	Trong đ
+              ó: $25\%$ test cases có $n \leq 10; x \leq 10; a_i \leq 10$;...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no : in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
 
 ! LaTeX Error: Unicode character ụ (U+1EE5)
                not set up for use with LaTeX.
@@ -3969,176 +4042,243 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 	\textbf{Ví dụ: }
+l.53 	\textbf{Ví dụ: }
                          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (8.8194pt too wide) in paragraph at lines 49--53
+Overfull \hbox (8.8194pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 D
  []
 
 
-Overfull \hbox (12.77771pt too wide) in paragraph at lines 49--53
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 liu
  []
 
 
-Overfull \hbox (13.52075pt too wide) in paragraph at lines 49--53
+Overfull \hbox (13.52075pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 ra:
  []
 
 
-Overfull \hbox (39.63289pt too wide) in paragraph at lines 49--53
+Overfull \hbox (39.63289pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/it/10 bai2.out
  []
 
 
-Overfull \hbox (4.44444pt too wide) in paragraph at lines 49--53
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^e
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 49--53
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^S^^P
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^So
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^So
  []
 
 
-Overfull \hbox (5.2778pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Ry
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Ra
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^So
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 ^^Sa
  []
 
 
-Overfull \hbox (19.11101pt too wide) in paragraph at lines 49--53
+Overfull \hbox (19.11101pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 IM-
  []
 
 
-Overfull \hbox (26.72208pt too wide) in paragraph at lines 49--53
+Overfull \hbox (26.72208pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 POS-
  []
 
 
-Overfull \hbox (14.58325pt too wide) in paragraph at lines 49--53
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 SI-
  []
 
 
-Overfull \hbox (22.65265pt too wide) in paragraph at lines 49--53
+Overfull \hbox (22.65265pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 BLE 
  []
 
 
-Overfull \hbox (26.354pt too wide) in paragraph at lines 49--53
+Overfull \hbox (26.354pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 R^^Rang
  []
 
 
-Overfull \hbox (21.08322pt too wide) in paragraph at lines 49--53
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 buc:
  []
 
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 ^^Ra
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (16.55786pt too wide) in paragraph at lines 49--53
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 49--54
 \OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 49--53
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (34.4861pt too wide) in paragraph at lines 49--53
+Overfull \hbox (34.4861pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 10[]; 1 \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (29.33037pt too wide) in paragraph at lines 49--53
+Overfull \hbox (29.33037pt too wide) in paragraph at lines 49--54
 \OML/cmm/m/it/10 x; a[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (14.48616pt too wide) in paragraph at lines 49--53
+Overfull \hbox (14.48616pt too wide) in paragraph at lines 49--54
 \/cmr/m/n/10 10[]$ 
  []
 
 
-Overfull \hbox (11.88882pt too wide) in paragraph at lines 49--53
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 ^^So
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 25%$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 ^^So
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 49--54
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (30.71523pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 10; \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (33.61513pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 10; \OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 10$
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 50%$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 ^^So
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 49--54
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (35.20135pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 10[]; \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (42.08739pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 10[]; \OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (18.47229pt too wide) in paragraph at lines 49--54
+\/cmr/m/n/10 10[]$
+ []
+
+
+Overfull \hbox (11.88882pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 V^^S^^P
  []
 
 
-Overfull \hbox (9.58328pt too wide) in paragraph at lines 49--53
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 49--54
 \OT1/cmr/bx/n/10 d: 
  []
 
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 1 in font nullfont!
 
-Overfull \hbox (75.26129pt too wide) in paragraph at lines 54--62
+Overfull \hbox (75.611pt too wide) in paragraph at lines 55--63
  [] 
  []
 
@@ -4149,7 +4289,1361 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{ex}
+l.64 \end{ex}
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment ex undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \begin{ex}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 	\textbf{(4 điểm) Tìm số nguyên tố}
+                                                 \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Unicode character ể (U+1EC3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 	\textbf{(4 điểm) Tìm số nguyên tố}
+                                                 \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 	\textbf{(4 điểm) Tìm số nguyên tố}
+                                                 \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 	\textbf{(4 điểm) Tìm số nguyên tố}
+                                                 \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Unicode character ộ (U+1ED9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 	Lebuk là mộ
+                    t lập trình viên, anh ấy muốn tạo ra một s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+
+! LaTeX Error: Unicode character ậ (U+1EAD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 	Lebuk là một lậ
+                          p trình viên, anh ấy muốn tạo ra một s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ấ (U+1EA5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 	Lebuk là một lập trình viên, anh ấ
+                                                 y muốn tạo ra một s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...� một lập trình viên, anh ấy muố
+                                                  n tạo ra một số số...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+
+! LaTeX Error: Unicode character ạ (U+1EA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...t lập trình viên, anh ấy muốn tạ
+                                                  o ra một số số  nguy...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Unicode character ộ (U+1ED9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...rình viên, anh ấy muốn tạo ra mộ
+                                                  t số số  nguyên tố ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...viên, anh ấy muốn tạo ra một số
+                                                   số  nguyên tố cho h�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ..., anh ấy muốn tạo ra một số số
+                                                    nguyên tố cho hệ th...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...��n tạo ra một số số  nguyên tố
+                                                   cho hệ thống mã hoá...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ệ (U+1EC7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ... ra một số số  nguyên tố cho hệ
+                                                   thống mã hoá của m�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...��t số số  nguyên tố cho hệ thố
+                                                  ng mã hoá của mình. H...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! LaTeX Error: Unicode character ủ (U+1EE7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...guyên tố cho hệ thống mã hoá củ
+                                                  a mình. Hãy giúp anh �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ấ (U+1EA5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...g mã hoá của mình. Hãy giúp anh ấ
+                                                  y! Nhiệm vụ của bạ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+
+! LaTeX Error: Unicode character ệ (U+1EC7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...� của mình. Hãy giúp anh ấy! Nhiệ
+                                                  m vụ của bạn là t�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no v in font nullfont!
+
+! LaTeX Error: Unicode character ụ (U+1EE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...a mình. Hãy giúp anh ấy! Nhiệm vụ
+                                                   của bạn là tạo ra ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no c in font nullfont!
+
+! LaTeX Error: Unicode character ủ (U+1EE7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...nh. Hãy giúp anh ấy! Nhiệm vụ củ
+                                                  a bạn là tạo ra tất...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+
+! LaTeX Error: Unicode character ạ (U+1EA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...�y giúp anh ấy! Nhiệm vụ của bạ
+                                                  n là tạo ra tất cả ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+
+! LaTeX Error: Unicode character ạ (U+1EA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...nh ấy! Nhiệm vụ của bạn là tạ
+                                                  o ra tất cả các số ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+
+! LaTeX Error: Unicode character ấ (U+1EA5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...Nhiệm vụ của bạn là tạo ra tấ
+                                                  t cả các số nguyên t...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! LaTeX Error: Unicode character ả (U+1EA3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...m vụ của bạn là tạo ra tất cả
+                                                   các số nguyên tố gi...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...�a bạn là tạo ra tất cả các số
+                                                   nguyên tố giữa hai s...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...tạo ra tất cả các số nguyên tố
+                                                   giữa hai số cho trư�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+
+! LaTeX Error: Unicode character ữ (U+1EEF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...ra tất cả các số nguyên tố giữ
+                                                  a hai số cho trước!
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...ả các số nguyên tố giữa hai số
+                                                   cho trước!
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Unicode character ư (U+01B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...số nguyên tố giữa hai số cho trư
+                                                  ớc!
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ớ (U+1EDB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...� nguyên tố giữa hai số cho trướ
+                                                  c!
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no ! in font nullfont!
+
+! LaTeX Error: Unicode character ữ (U+1EEF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 	\textbf{Dữ liệu vào: }
+                                  Từ tập tin \textbf{\textit{bai3.in}} g...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ệ (U+1EC7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 	\textbf{Dữ liệu vào: }
+                                  Từ tập tin \textbf{\textit{bai3.in}} g...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no T in font nullfont!
+
+! LaTeX Error: Unicode character ừ (U+1EEB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 	\textbf{Dữ liệu vào: } Từ
+                                       tập tin \textbf{\textit{bai3.in}} g...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+
+! LaTeX Error: Unicode character ậ (U+1EAD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 	\textbf{Dữ liệu vào: } Từ tậ
+                                           p tin \textbf{\textit{bai3.in}} g...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: Unicode character ồ (U+1ED3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ...� tập tin \textbf{\textit{bai3.in}} gồ
+                                                  m:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (30.22217pt too wide) in paragraph at lines 67--70
+[]\OT1/cmr/bx/n/10 (4
+ []
+
+
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 im)
+ []
+
+
+Overfull \hbox (20.77766pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 T^^R^^Pm
+ []
+
+
+Overfull \hbox (4.53607pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 s
+ []
+
+
+Overfull \hbox (36.25676pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 nguy^en
+ []
+
+
+Overfull \hbox (4.4722pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 t 
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^Ra
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^R^^P
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^e
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^e
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ~a
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^Sa
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^R^^P
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ~a
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^Su
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^Ra
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^^Sa
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 67--70
+\/cmr/m/n/10 ^e
+ []
+
+
+Overfull \hbox (8.8194pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 D
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 liu
+ []
+
+
+Overfull \hbox (20.60403pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/n/10 v^^Rao:
+ []
+
+
+Overfull \hbox (34.66447pt too wide) in paragraph at lines 67--70
+\OT1/cmr/bx/it/10 bai3.in 
+ []
+
+Missing character: There is no S in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\item Số
+                  $t$: số lượng trường hợp cần kiểm tra trong ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no : in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\item Số $t$: số
+                            lượng trường hợp cần kiểm tra trong ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no l in font nullfont!
+
+! LaTeX Error: Unicode character ư (U+01B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\item Số $t$: số lư
+                               ợng trường hợp cần kiểm tra trong ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ợ (U+1EE3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\item Số $t$: số lượ
+                                  ng trường hợp cần kiểm tra trong ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Unicode character ư (U+01B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\item Số $t$: số lượng trư
+                                         ờng hợp cần kiểm tra trong ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ờ (U+1EDD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\item Số $t$: số lượng trườ
+                                            ng hợp cần kiểm tra trong ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ợ (U+1EE3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...tem Số $t$: số lượng trường hợ
+                                                  p cần kiểm tra trong m...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! LaTeX Error: Unicode character ầ (U+1EA7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�� $t$: số lượng trường hợp cầ
+                                                  n kiểm tra trong một d...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+
+! LaTeX Error: Unicode character ể (U+1EC3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ... số lượng trường hợp cần kiể
+                                                  m tra trong một dòng đ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Unicode character ộ (U+1ED9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...rường hợp cần kiểm tra trong mộ
+                                                  t dòng đơn.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: Command \dj unavailable in encoding .
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ợp cần kiểm tra trong một dòng đ
+                                                  ơn.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Unicode character ơ (U+01A1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�p cần kiểm tra trong một dòng đơ
+                                                  n.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 71--72
+\OML/cmm/m/it/10 t$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 71--72
+\/cmr/m/n/10 ^^Ro 
+ []
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+
+! LaTeX Error: Unicode character ế (U+1EBF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item $t$ dòng tiế
+                            p theo, mỗi dòng chứa hai số nguyên $L$ ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Unicode character ỗ (U+1ED7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item $t$ dòng tiếp theo, mỗ
+                                        i dòng chứa hai số nguyên $L$ ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ứ (U+1EE9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...m $t$ dòng tiếp theo, mỗi dòng chứ
+                                                  a hai số nguyên $L$ và...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: Unicode character ố (U+1ED1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...g tiếp theo, mỗi dòng chứa hai số
+                                                   nguyên $L$ và $U$ cách...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+
+! LaTeX Error: Unicode character ở (U+1EDF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...i số nguyên $L$ và $U$ cách nhau bở
+                                                  i một dấu cách, trong...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: Unicode character ộ (U+1ED9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ... nguyên $L$ và $U$ cách nhau bởi mộ
+                                                  t dấu cách, trong đó:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no d in font nullfont!
+
+! LaTeX Error: Unicode character ấ (U+1EA5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...�n $L$ và $U$ cách nhau bởi một dấ
+                                                  u cách, trong đó:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: Command \dj unavailable in encoding .
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...�ch nhau bởi một dấu cách, trong đ
+                                                  ó:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 72--73
+\OML/cmm/m/it/10 t$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^^Ro
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^^Ro
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^e
+ []
+
+
+Overfull \hbox (6.80557pt too wide) in paragraph at lines 72--73
+\OML/cmm/m/it/10 L$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^^Ra
+ []
+
+
+Overfull \hbox (7.91803pt too wide) in paragraph at lines 72--73
+\OML/cmm/m/it/10 U$
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^^Sa
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^^Sa
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 72--73
+\/cmr/m/n/10 ^^So 
+ []
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+
+! LaTeX Error: Unicode character ớ (U+1EDB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 			\item $L$ - Giớ
+                         i hạn dưới của khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ạ (U+1EA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 			\item $L$ - Giới hạ
+                               n dưới của khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+
+! LaTeX Error: Unicode character ư (U+01B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 			\item $L$ - Giới hạn dư
+                                    ới của khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ớ (U+1EDB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 			\item $L$ - Giới hạn dướ
+                                       i của khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! LaTeX Error: Unicode character ủ (U+1EE7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 			\item $L$ - Giới hạn dưới củ
+                                             a khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+
+! LaTeX Error: Unicode character ả (U+1EA3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...em $L$ - Giới hạn dưới của khoả
+                                                  ng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (6.80557pt too wide) in paragraph at lines 74--75
+\OML/cmm/m/it/10 L$
+ []
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+
+! LaTeX Error: Unicode character ớ (U+1EDB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 			\item $U$ - Giớ
+                         i hạn trên của khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no h in font nullfont!
+
+! LaTeX Error: Unicode character ạ (U+1EA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 			\item $U$ - Giới hạ
+                               n trên của khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+
+! LaTeX Error: Unicode character ủ (U+1EE7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 			\item $U$ - Giới hạn trên củ
+                                           a khoảng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+
+! LaTeX Error: Unicode character ả (U+1EA3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...item $U$ - Giới hạn trên của khoả
+                                                  ng.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (7.91803pt too wide) in paragraph at lines 75--76
+\OML/cmm/m/it/10 U$
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 75--76
+\/cmr/m/n/10 ^e
+ []
+
+
+! LaTeX Error: Unicode character ữ (U+1EEF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 	\textbf{Dữ liệu ra: }
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ệ (U+1EC7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 	\textbf{Dữ liệu ra: }
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: \begin{document} ended by \end{ex}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \end{ex}
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4163,11 +5657,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 103 strings out of 474050
- 1247 string characters out of 5746299
+ 113 strings out of 474050
+ 1358 string characters out of 5746299
  1933754 words of memory out of 5000000
- 22624 multiletter control sequences out of 15000+600000
- 559082 words of font info for 39 fonts, out of 8000000 for 9000
+ 22632 multiletter control sequences out of 15000+600000
+ 559544 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,7n,32p,356b,255s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 27i,7n,32p,414b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

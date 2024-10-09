@@ -1,4 +1,7 @@
-\documentclass[12pt,a4paper,twoside]{book}
+\documentclass[12pt,a4paper, oneside]{article}
+\usepackage{zref-totpages}
+
+
 \usepackage{amsmath,amssymb,yhmath,mathrsfs}
 \usepackage{enumerate}
 \usepackage{tkz-euclide}
@@ -10,12 +13,11 @@
 \usepgfplotslibrary{fillbetween}
 \pgfplotsset{compat=1.9}
 \usepackage[top=1.5cm, bottom=2cm, left=1.5cm, right=1.5cm] {geometry}
-\usepackage[hidelinks,unicode,hypertexnames=false]{hyperref}
+%\usepackage[hidelinks,unicode,hypertexnames=false]{hyperref}
 \usepackage{currfile}
 \usepackage{framed}
 \usepackage[many]{tcolorbox}
 \usepackage{esvect}
-\usepackage{lastpage}
 
 \def\vec{\vv}
 \def\overrightarrow{\vv}
@@ -39,6 +41,10 @@
 \assignpagestyle{\chapter}{fancy}
 \pagestyle{fancy}
 \fancyhf{}
+
+\fancyfoot[C]{\thepage} % Page number in the center of the footer
+
+
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand{\headrulewidth}{0pt}
 \futurelet\TMPfootrule\def\footrule{{\color{cyan}\TMPfootrule}}
@@ -97,14 +103,13 @@
 			\begin{center}
 				\textcolor{cyan}{\bf\fontfamily{qag}\selectfont#1} \\
 				\tikz\draw[cyan,thick] (0,0)--(4,0) node[midway,below]{\bf\fontfamily{qag}\selectfont ĐỀ THI CHÍNH THỨC}; \\
-				\textit{(Đề thi gồm có $5$ bài, \pageref{LastPage} trang)}
+				\textit{(Đề thi gồm có $5$ bài, \ztotpages \hspace{0.03cm} trang)}
 			\end{center}
 		\end{minipage}
 		\begin{minipage}[t]{0.65\textwidth}
 			\begin{center}
 				\textcolor{magenta}{\bfseries\fontfamily{qag}\selectfont #2} \\
-				\textit{Thời gian làm bài: 120 phút (Không kể thời gian phát đề)} 
-				%\tikz\path node[draw,rounded corners = 1mm] {\bf\fontfamily{anttlc}\selectfont Mã đề: \de};
+				\textit{Thời gian làm bài: 120 phút (Không kể thời gian phát đề)} 				%\tikz\path node[draw,rounded corners = 1mm] {\bf\fontfamily{anttlc}\selectfont Mã đề: \de};
 			\end{center}
 		\end{minipage}
 	\end{tcolorbox}
