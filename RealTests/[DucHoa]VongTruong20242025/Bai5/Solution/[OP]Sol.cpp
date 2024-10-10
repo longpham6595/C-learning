@@ -12,7 +12,7 @@ using namespace std;
     cin.tie(0);                   \
     cout.tie(0);
 // Define local for input and output files
-// #define LOCAL
+#define LOCAL
 //============================================================================
 // START PROGRAM
 //============================================================================
