@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.9)  9 OCT 2024 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.9)  11 OCT 2024 06:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1740,27 +1740,27 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 3--3
  []
 
 LaTeX Font Info:    Trying to load font information for T5+cmss on input line 3
-1.
+0.
 (c:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T5/cmss/bx/it' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 31.
+(Font)              using `T5/cmss/bx/n' instead on input line 30.
 
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 3
-3.
+2.
 (c:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
 texmf-dist/fonts/enc/dvips/tex-gyre/q-t5.enc}{c:/texlive/2024/texmf-dist/fonts/
-enc/dvips/cm-super/cm-super-ts1.enc}] [2])
+enc/dvips/cm-super/cm-super-ts1.enc}] [2] [3])
 \tf@thm=\write7
 \openout7 = `main_azota.thm'.
 
- [3] (./main_azota.aux)
+ [4] (./main_azota.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1771,11 +1771,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41663 strings out of 474050
- 1016775 string characters out of 5746299
- 1940754 words of memory out of 5000000
- 63179 multiletter control sequences out of 15000+600000
- 572419 words of font info for 73 fonts, out of 8000000 for 9000
+ 41675 strings out of 474050
+ 1016933 string characters out of 5746299
+ 1943754 words of memory out of 5000000
+ 63187 multiletter control sequences out of 15000+600000
+ 577997 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,11n,123p,1181b,1025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
@@ -1789,10 +1789,10 @@ e/2024/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2024/texmf-dis
 t/fonts/type1/vntex/vnr/vnitt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vnt
 ex/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb
 ><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on main_azota.pdf (3 pages, 188361 bytes).
+Output written on main_azota.pdf (4 pages, 197929 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

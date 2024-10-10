@@ -4,7 +4,7 @@
 \end{name}
 %\Opensolutionfile{ans}[ans/ansMyLT930]
 
-\textit{Học sinh tạo thư mục là họ tên và lớp (viết liền không dấu, VD: votansach\_11TN1), lưu các bài làm với tên tương ứng bai1.???, bai2.???, bai3.???, bai4.???, bai5.??? vào thư mục vừa tạo (dấu ??? được thay bằng phần mở rộng của ngôn ngữ lập trình dùng để viết chương trình, VD: bai1.cpp, bai1.pas, bai1.py, ...).\\
+\textit{Học sinh tạo thư mục là họ tên và lớp (viết liền không dấu, VD: leevantach\_11T9), lưu các bài làm với tên tương ứng bai1.???, bai2.???, bai3.???, bai4.???, bai5.??? vào thư mục vừa tạo (dấu ??? được thay bằng phần mở rộng của ngôn ngữ lập trình dùng để viết chương trình, VD: bai1.cpp, bai1.pas, bai1.py, ...).\\
 Hãy lập trình giải các bài toán bên dưới.}
 
 \begin{ex}
@@ -21,9 +21,8 @@ Hãy lập trình giải các bài toán bên dưới.}
 	\textbf{Dữ liệu ra: } Xuất ra tập tin \textit{\textbf{bai1.out}} $q$ dòng tương ứng với $q$ truy vấn.\\
 	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq q \leq 1000; 1 \leq k \leq 10^{18}$.\\
 	 Trong đó: 
-	$25\%$ test cases có $k \leq 10^7$,  $50\%$ test cases có $k \leq 10^9$,  $75\%$ test cases có $k \leq 10^{13}$\\
-	\textbf{Giới hạn thời gian: } \textbf{\textit{1 giây (1000 ms)}} \\
-	\textbf{Giới hạn bộ nhớ: } \textbf{\textit{512 MB}}\\
+	\textit{$25\%$ test cases có $k \leq 10^7$,  $50\%$ test cases có $k \leq 10^9$,  $75\%$ test cases có $k \leq 10^{13}$}\\
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
 	\textbf{Ví dụ: }
 	\begin{center}
 		\begin{tabular}{|l|l|}
@@ -51,9 +50,8 @@ Hãy lập trình giải các bài toán bên dưới.}
 	\textbf{Dữ liệu ra: } Xuất ra tập tin \textbf{\textit{bai2.out}}: 
 	In ra hai số nguyên: vị trí của các giá trị. Nếu có nhiều cách giải, bạn có thể in ra bất kỳ cách nào. Nếu không có cách giải, in ra \textbf{IMPOSSIBLE}. \\
 	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq n \leq 2 \cdot 10^5; 1 \leq x , a_i \leq 10^9$. \\
-	Trong đó: $25\%$ test cases có $n \leq 10; x \leq 10; a_i \leq 10$; $50\%$ test cases có $n \leq 2\cdot 10^5; x \leq 10^{10}; a_i \leq 10^{10} $
-	\textbf{Giới hạn thời gian: } \textbf{\textit{1 giây (1000 ms)}} \\
-	\textbf{Giới hạn bộ nhớ: } \textbf{\textit{512 MB}}\\
+	Trong đó: \textit{$25\%$ test cases có $n \leq 10; x \leq 10; a_i \leq 10$; $50\%$ test cases có $n \leq 2\cdot 10^5; x \leq 10^{10}; a_i \leq 10^{10} $}
+		\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
 	\textbf{Ví dụ: }
 	\begin{center}
 		\begin{tabular}{|l|l|}
@@ -81,9 +79,12 @@ Hãy lập trình giải các bài toán bên dưới.}
 	\end{itemize}
 	\textbf{Dữ liệu ra: } Xuất ra tập tin \textbf{\textit{bai3.out}}: Tuần tự mỗi test, các giá trị xuất liên tục mỗi giá trị một dòng. \\
 	Đối với mỗi bài kiểm tra, đầu ra phải chứa tất cả các số nguyên tố trong khoảng $[L; U]$ theo thứ tự tăng dần. \\
-	\textbf{Ràng buộc: } Ràng buộc chung: $2 \leq L < U \leq 2147483647$\\
-	\textbf{Giới hạn thời gian: } \textbf{\textit{1 giây (1000 ms)}} \\
-	\textbf{Giới hạn bộ nhớ: } \textbf{\textit{512 MB}}\\
+	\textbf{Ràng buộc: } Ràng buộc chung: $t \leq 125; 2 \leq L < U \leq 2147483647$. Trong đó: 
+	\begin{itemize}
+		\item \textit{$25\%$ test cases có $t \leq 125; L < U < 10^6$}
+		\item \textit{$75\%$ test cases còn lại $t = 125; 10^{7} < L < U < 10^{11}$}
+	\end{itemize}
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
 	\textbf{Ví dụ: } 
 	\begin{center}
 		\begin{tabular}{|l|l|}
@@ -105,19 +106,22 @@ Hãy lập trình giải các bài toán bên dưới.}
 
 \begin{ex}
 	\textbf{(4 điểm) Phần cơm gà yêu dấu}\\
-	Chukingplix là một lập trình viên trẻ tiềm năng, giống như tất cả các lập trình viên khác, anh ấy thích ăn gà rán "\textit{DoubleDay}", có thể mua được ở $n$ cửa hàng khác nhau trong thành phố. Được biết rằng giá của một phần ăn ở cửa hàng thứ $i$ bằng $x_i$ đồng.\\
-	Chukingplix dự định mua phần ăn yêu thích của mình trong $q$ ngày liên tiếp. Anh ấy biết, vào ngày thứ $i$ anh ấy sẽ có thể tiêu $m_i$ đồng. Bây giờ, đối với mỗi ngày, anh ấy muốn biết anh ấy có thể mua một phần ăn "DoubleDay" ở bao nhiêu cửa hàng khác nhau.\\
+	Ckplix là một lập trình viên trẻ tiềm năng, giống như tất cả các lập trình viên khác, anh ấy thích ăn gà rán "\textit{DoubleDay}", có thể mua được ở $n$ cửa hàng khác nhau trong thành phố. Được biết rằng giá của một phần ăn ở cửa hàng thứ $i$ bằng $x_i$ đồng.\\
+	Ckplix dự định mua phần ăn yêu thích của mình trong $q$ ngày liên tiếp. Anh ấy biết, vào ngày thứ $i$ anh ấy sẽ có thể tiêu $m_i$ đồng. Bây giờ, đối với mỗi ngày, anh ấy muốn biết anh ấy có thể mua một phần ăn "DoubleDay" ở bao nhiêu cửa hàng khác nhau.\\
 	\textbf{Dữ liệu vào: } Từ tập tin \textbf{\textit{bai4.in}} gồm: 
 	\begin{itemize}
-		\item[$\star$] Dòng đầu tiên của đầu vào chứa một số nguyên $n (1 \leq n \leq 100000)$ - số cửa hàng trong thành phố bán combo gà rán yêu thích của Chukingplix.
-		\item[$\star$] Dòng thứ hai chứa $n$ số nguyên $x_i (1 \leq x_i \leq 100 000)$ - giá của các phần ăn này trong của hàng thứ $i$. 
-		\item[$\star$] Dòng thứ ba chứa một số nguyên $q (1 \leq q \leq 100 000)$ - số ngày mà Chukingplix dự định mua đồ ăn. 
-		\item[$\star$] Sau đó là $q$ dòng mỗi dòng chứa một số nguyên $m_i (1 \leq m_i \leq 10^9)$ - số đồng mà Chukingplix có thể tiêu vào ngày thứ $i$. 
+		\item[$\star$] Dòng đầu tiên của đầu vào chứa một số nguyên $n (1 \leq n \leq 100000)$ - số cửa hàng trong thành phố bán combo gà rán yêu thích của Ckplix.
+		\item[$\star$] Dòng thứ hai chứa $n$ số nguyên $x_i (1 \leq x_i \leq 10^7)$ - giá của các phần ăn này trong của hàng thứ $i$. 
+		\item[$\star$] Dòng thứ ba chứa một số nguyên $q (1 \leq q \leq 100 000)$ - số ngày mà Ckplix dự định mua đồ ăn. 
+		\item[$\star$] Sau đó là $q$ dòng mỗi dòng chứa một số nguyên $m_i (1 \leq m_i \leq 10^9)$ - số đồng mà Ckplix có thể tiêu vào ngày thứ $i$. 
 	\end{itemize}
-	\textbf{Dữ liệu ra: } Xuất ra tập tin \textbf{\textit{bai4.out}}: In ra $q$ số nguyên. Số thứ $i$ sẽ bằng số của hàng mà Chukingplix có thể mua một phần đồ ăn vào ngày thứ $i$. \\
-	\textbf{Ràng buộc: } Như đã nêu ở dữ liệu vào, ràng buộc chính gồm: $1 \leq n, x_i, q \leq 100000$ và $1 \leq m_i \leq 10^9$\\
-	\textbf{Giới hạn thời gian: } \textbf{\textit{1 giây (1000 ms)}} \\
-	\textbf{Giới hạn bộ nhớ: } \textbf{\textit{512 MB}}\\
+	\textbf{Dữ liệu ra: } Xuất ra tập tin \textbf{\textit{bai4.out}}: In ra $q$ số nguyên. Số thứ $i$ sẽ bằng số của hàng mà Ckplix có thể mua một phần đồ ăn vào ngày thứ $i$. \\
+	\textbf{Ràng buộc: } $1 \leq n, x_i, q \leq 100000$ và $1 \leq m_i \leq 10^{12}$. Trong đó: 
+	\begin{itemize}
+		\item \textit{$32\%$ test cases có $n \leq 10^3$.}
+		\item \textit{$60\%$ test cases có $n \leq 10^5; x_i \leq 10^7; q \leq 10^5; m_i \leq 10^{10} $}
+	\end{itemize}
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
 	\textbf{Ví dụ: }
 	\begin{center}
 		\begin{tabular}{|l|l|}
@@ -136,13 +140,77 @@ Hãy lập trình giải các bài toán bên dưới.}
 	\end{center}
 	\textbf{Giải thích: }
 	\begin{itemize}
-		\item[$\star$] Vào ngày đầu tiên, Chukingplix sẽ không thể mua phần ăn ở bất kì cửa hàng nào. 
-		\item[$\star$] Vào ngày thứ hai, Chukingplix có thể mua phần ăn ở các cửa hàng $1,2,3$ và $4$. 
-		\item[$\star$] Vào ngày thứ ba, Chukingplix chỉ có thể mua đồ ăn ở cửa hàng số $1$. 
-		\item[$\star$] Vào ngày cuối cùng, Chukingplix có thể mua đồ ăn ở bất kì cửa hàng nào. 
+		\item[$\star$] Vào ngày đầu tiên, Ckplix sẽ không thể mua phần ăn ở bất kì cửa hàng nào. 
+		\item[$\star$] Vào ngày thứ hai, Ckplix có thể mua phần ăn ở các cửa hàng $1,2,3$ và $4$. 
+		\item[$\star$] Vào ngày thứ ba, Ckplix chỉ có thể mua đồ ăn ở cửa hàng số $1$. 
+		\item[$\star$] Vào ngày cuối cùng, Ckplix có thể mua đồ ăn ở bất kì cửa hàng nào. 
 	\end{itemize}
 \end{ex}
 
-
+%Bài 5
+\begin{ex}
+	\textbf{(4 điểm) Kết nối}\\
+	Bạn được cho một đồ thị vô hướng gồm $n$ đỉnh. Một số được ghi trên mỗi đỉnh; số trên đỉnh $i$ là $a_i$. Ban đầu không có cạnh nào trong đồ thị. \\
+	Bạn có thể thêm một số cạnh vào đồ thị này, nhưng bạn phải trả phí cho chúng. Chi phí để thêm một cạnh giữa các đỉnh $x$ và $y$ là $a_x+a_y$ đồng. Cũng có $m$ ưu đãi đặc biệt, mỗi ưu đãi được ký hiệu bằng ba số $x;y$ và $w$, có nghĩa là bạn có thể thêm một cạnh kết nối các đỉnh $x$ và $y$ và trả $w$ đồng cho nó. Cần nhớ rằng bạn không nhất thiết phải sử dụng các ưu đãi đặc biệt: nếu có một cặp đỉnh $x$ và $y$ có một ưu đãi đặc biệt liên quan đến nó, bạn vẫn có thể kết nối hai đỉnh này bằng cách trả $a_x+a_y$ đồng cho nó. \\
+	Chi phí tối thiểu bạn phải chi để làm cho đồ thị trở nên liên thông là bao nhiêu?
+	\textit{Giải thích: Một đồ thị được gọi là liên thông nếu có thể đi từ bất kỳ đỉnh nào đến bất kỳ đỉnh nào khác chỉ bằng cách sử dụng các cạnh thuộc đồ thị đó.}\\
+	\textbf{Dữ liệu vào: } Từ tập tin $\textbf{\textit{bai5.in}}$ gồm: 
+	\begin{itemize}
+		\item Dòng đầu tiên chứa hai số nguyên $n$ và $m$ ( $1 \leq n \leq 2\cdot 10^5; 0 \leq m \leq 2\cdot 10^5$) số đỉnh trong đồ thị và số lượng ưu đãi đặc biệt tương ứng. 
+		\item Dòng thứ hai chứa $n$ số nguyên $a_i: a_1; a_2; \cdots ; a_n$ ($ 1 \leq a_i \leq 10^{14} ~, \forall i \in \{1; 2; \cdots; n\}$) - các số được ghi trên các đỉnh. 
+		\item Tiếp theo là $m$ dòng, mỗi dòng chứa ba số nguyên $x;y$ và $w$ ($1 \leq x, y \leq n ; 1 \leq w \leq 10^{14}; x \ne y$) biểu thị một ưu đãi đặc biệt: bạn có thể thêm một cạnh kết nối đỉnh $x$ và đỉnh $y$, và cạnh này sẽ có giá $w$ đồng. 
+	\end{itemize}
+	\textbf{Dữ liệu ra: } Xuất ra tập tin $\textbf{\textit{bai5.out}}$: \\
+	In ra một số nguyên - số đồng tối thiểu bạn phải trả để làm cho đồ thị trở nên liên thông.\\
+	\textbf{Ràng buộc: } Các ràng buộc với $n,m,a_i, x,y,w$ như đã mô tả ở dữ liệu vào.	Trong đó cụ thể:
+	\begin{itemize}
+		\item \textit{$12.5\%$ số test cases có $n \leq 10; m \leq 10; a_i \leq 10^2 ; w \leq 10^2$.}
+		\item \textit{$87.5\%$ không giới hạn $n,m$ và $a_i \geq 10^{12}; w \geq 10^{12}$. }
+	\end{itemize}
+		\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
+	\textbf{Một số ví dụ: }
+	\begin{center}
+		\begin{multicols}{3}
+			\begin{tabular}{|l|l|}
+				\hline
+				\textbf{\textsf{\textit{bai5.in}}} & \textbf{\textsf{\textit{bai5.out}}} \\ % Đổi font cho tiêu đề bảng
+				\hline
+				\textit{\texttt{3 2}} & \textit{\texttt{5}} \\ % Đổi font cho nội dung bảng
+				\textit{\texttt{1 3 3}} & \\
+				\textit{\texttt{2 3 5}} & \\
+				\textit{\texttt{2 1 1}} & \\
+				\hline
+			\end{tabular}
+			
+			\vfil\null \columnbreak
+			\begin{tabular}{|l|l|}
+				\hline
+				\textbf{\textsf{\textit{bai5.in}}} & \textbf{\textsf{\textit{bai5.out}}} \\ % Đổi font cho tiêu đề bảng
+				\hline
+				\textit{\texttt{4 0}} & \textit{\texttt{16}} \\ % Đổi font cho nội dung bảng
+				\textit{\texttt{1 3 3 7}} & \\
+				\hline
+			\end{tabular}
+			\vfil\null \columnbreak
+			\begin{tabular}{|l|l|}
+				\hline
+				\textbf{\textsf{\textit{bai5.in}}} & \textbf{\textsf{\textit{bai5.out}}} \\ % Đổi font cho tiêu đề bảng
+				\hline
+				\textit{\texttt{5 4}} & \textit{\texttt{18}} \\ % Đổi font cho nội dung bảng
+				\textit{\texttt{1 2 3 4 5}} & \\
+				\textit{\texttt{1 2 8}} & \\
+				\textit{\texttt{1 3 10}} & \\
+				\textit{\texttt{1 4 7}} & \\
+				\textit{\texttt{1 5 15}} & \\
+				\hline
+			\end{tabular}
+		\end{multicols}
+	\end{center}
+	
+	\textbf{Lý giải: } Trong ví dụ đầu tiên, có thể kết nối $1$ với $2$ bằng cách sử dụng ưu đãi đặc biệt $2$, và sau đó kết nối $1$ với $3$ mà không cần sử dụng bất kỳ ưu đãi nào. \\
+	Trong hai ví dụ tiếp theo, câu trả lời tối ưu có thể đạt được mà không cần sử dụng các ưu đãi đặc biệt. 
+	
+	
+\end{ex}
 
 
