@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "BTTruong/DeHK2L10" # Đường dẫn tới các dự án con
+]

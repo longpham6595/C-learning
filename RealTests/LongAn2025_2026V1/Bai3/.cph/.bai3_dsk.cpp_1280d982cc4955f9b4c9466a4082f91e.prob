@@ -1,0 +1,1 @@
+{"name":"Local: bai3_dsk","url":"d:\\HSG\\C-learning\\RealTests\\LongAn2025_2026V1\\Bai3\\bai3_dsk.cpp","tests":[{"id":1742862042842,"input":"5\n1 5\n2 7\n3 6\n5 9\n4 8","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\HSG\\C-learning\\RealTests\\LongAn2025_2026V1\\Bai3\\bai3_dsk.cpp","group":"local","local":true}
