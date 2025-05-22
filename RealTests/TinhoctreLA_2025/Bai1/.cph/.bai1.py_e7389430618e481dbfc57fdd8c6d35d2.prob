@@ -1,0 +1,1 @@
+{"name":"Local: bai1","url":"d:\\HSG\\C-learning\\RealTests\\TinhoctreLA_2025\\Bai1\\bai1.py","tests":[{"id":1744807542200,"input":"5\nleo \ntom\ntom \nkiki    \ntom \neden    \ntom \neden    \nkiki\n","output":"leo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\HSG\\C-learning\\RealTests\\TinhoctreLA_2025\\Bai1\\bai1.py","group":"local","local":true}

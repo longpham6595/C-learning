@@ -50,9 +50,9 @@ int main()
     while (true)
     {
         if (find(sig.begin(), sig.end(), false) != sig.end())
-        {
             break;
-        }
+        auto init = find(sig.begin(),sig.end(),false);
+        sig[init - sig.begin()] = true;
     }
 
     // getchar();
