@@ -1,0 +1,183 @@
+\begin{name}
+	{SỞ GD\&ĐT LONG AN \\ TRƯỜNG THPT ĐỨC HOÀ}
+	{\testname \\ Môn thi: TIN HỌC - Cấp THPT}
+\end{name}
+%\Opensolutionfile{ans}[ans/ansMyLT930]
+
+\textit{Học sinh tạo thư mục là họ tên và lớp (viết liền không dấu, VD: leebook\_11T8), lưu các bài làm với tên tương ứng bai1.???, bai2.???, bai3.???, bai4.???, bai5.??? vào thư mục vừa tạo (dấu ??? được thay bằng phần mở rộng của ngôn ngữ lập trình dùng để viết chương trình, VD: bai1.cpp, bai1.pas, bai1.py, ...).\\
+	Hãy lập trình giải các bài toán bên dưới.}
+
+
+\begin{ex}
+	\textbf{(4 điểm) PHÉP CỘNG KHẢ THI??}\\
+	Bạn được cho ba số nguyên $a, b$, và $c$. \\
+	\textbf{Yêu cầu: }Xác định xem một trong số chúng có phải là tổng của hai số còn lại hay không.\\
+	\textbf{Dữ liệu vào: }\textbf{Từ FILE "bai1.in". Bao gồm: }Dòng đầu tiên chứa một số nguyên $t ~(1 \leq t \leq 9261$)— số lượng bài kiểm tra. Mô tả của mỗi bài kiểm tra bao gồm ba số nguyên $a, b, c$ ($0 \leq a, b, c \leq 20$).\\
+	\textbf{Dữ liệu ra: }\textbf{Ra FILE "bai1.out". Bao gồm: }Đối với mỗi bài kiểm tra, xuất "\textbf{YES}" nếu một trong các số là tổng của hai số còn lại, và "\textbf{NO}" nếu không.\\
+	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq t \leq 9261; 0 \leq a,b,c \leq 20$.\\
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
+	\textbf{Ví dụ: }
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textit{\textbf{\textsf{bai1.in}}} & \textit{\textbf{\textsf{bai1.out}}} \\ % Đổi font cho tiêu đề bảng
+			\hline
+			\textit{\texttt{7}}                & \textit{\texttt{YES}}               \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{1 4 3}}            & \textit{\texttt{NO}}                \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{2 5 8}}            & \textit{\texttt{YES}}               \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{9 11 20}}          & \textit{\texttt{YES}}               \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{0 0 0}}            & \textit{\texttt{NO}}                \\
+			\textit{\texttt{20 20 20}}         & \textit{\texttt{NO}}                \\
+			\textit{\texttt{4 12 3}}           & \textit{\texttt{NO}}                \\
+			\textit{\texttt{15 7 8}}           & \textit{\texttt{YES}}               \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\textbf{Ghi chú: }Trong bài kiểm tra đầu tiên, $1 + 3 = 4$. Trong bài kiểm tra thứ hai, không có số nào là tổng của hai số còn lại. Trong bài kiểm tra thứ ba, $9 + 11 = 20$.
+
+
+\end{ex}
+
+
+
+\begin{ex}
+	\textbf{(4 điểm) TRUY HỒI GIÁ TRỊ}\\
+	\textbf{Leebook} đã đoán ba số nguyên dương $a$, $b$ và $c$. Anh ấy giữ những số này trong bí mật, nhưng anh ấy đã viết bốn số lên bảng theo thứ tự tùy ý — tổng của chúng theo cặp (ba số) và tổng của cả ba số (một số). Vì vậy, có bốn số trên bảng theo thứ tự ngẫu nhiên: $a+b$, $a+c$, $b+c$ và $a+b+c$. Bạn phải đoán ba số $a$, $b$ và $c$ bằng cách sử dụng các số đã cho. In ra ba số nguyên đã đoán theo bất kỳ thứ tự nào. Lưu ý rằng một số số đã cho $a$, $b$ và $c$ có thể bằng nhau (cũng có thể $a=b=c$).\\
+	\textbf{Dữ liệu vào: }\textbf{Từ FILE "bai2.in". Bao gồm: }
+	Dòng duy nhất của đầu vào chứa bốn số nguyên dương $x_1, x_2, x_3, x_4$ ($2 \le x_i \le 10^9$) — các số được viết trên bảng theo thứ tự ngẫu nhiên. Đảm bảo rằng câu trả lời tồn tại cho số đã cho $x_1, x_2, x_3, x_4$.\\
+	\textbf{Dữ liệu ra: }\textbf{Ra FILE "bai2.out". Bao gồm: }In ra các số nguyên dương $a$, $b$ và $c$ sao cho bốn số được viết trên bảng là các giá trị $a+b$, $a+c$, $b+c$ và $a+b+c$ được viết theo một thứ tự nào đó. In ra $a$, $b$ và $c$ theo bất kỳ thứ tự nào. Nếu có nhiều câu trả lời, bạn có thể in bất kỳ câu nào. Đảm bảo rằng câu trả lời tồn tại.\\
+	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq t \leq 100$.\\
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 256 MB}} \\
+	\textbf{Ví dụ: }
+	\begin{center}
+		\begin{multicols}{3}
+			\begin{tabular}{|l|l|}
+				\hline
+				\textit{\textbf{\textsf{bai2.in}}} & \textit{\textbf{\textsf{bai2.out}}} \\ % Đổi font cho tiêu đề bảng
+				\hline
+				\textit{\texttt{3 6 5 4}}          & \textit{\texttt{2 1 3}}             \\
+				\hline
+			\end{tabular}
+			\vfil\null \columnbreak
+			\begin{tabular}{|l|l|}
+				\hline
+				\textit{\textbf{\textsf{bai2.in}}} & \textit{\textbf{\textsf{bai2.out}}} \\ % Đổi font cho tiêu đề bảng
+				\hline
+				\textit{\texttt{40 40 40 60}}      & \textit{\texttt{20 20 20 }}         \\
+				\hline
+			\end{tabular}
+			\vfil\null \columnbreak
+			\begin{tabular}{|l|l|}
+				\hline
+				\textit{\textbf{\textsf{bai2.in}}} & \textit{\textbf{\textsf{bai2.out}}} \\ % Đổi font cho tiêu đề bảng
+				\hline
+				\textit{\texttt{201 101 101 200}}  & \textit{\texttt{1 100 100}}         \\
+				\hline
+			\end{tabular}
+		\end{multicols}
+	\end{center}
+\end{ex}
+
+\begin{ex}
+	\textbf{(4 điểm) CHUỖI VUÔNG}\\
+	Một chuỗi được gọi là hình vuông nếu nó là một chuỗi nào đó được viết hai lần liên tiếp. Ví dụ, các chuỗi "\textbf{aa}", "\textbf{abcabc}", "\textbf{abab}" và "\textbf{baabaa}" là hình vuông. Nhưng các chuỗi "\textbf{aaa}", "\textbf{abaaab}" và "\textbf{abcdabc}" thì không phải là hình vuông. Cho một chuỗi $s$ xác định xem nó có phải là hình vuông hay không.\\
+	\textbf{Dữ liệu vào: }\textbf{Từ FILE "bai3.in". Bao gồm: }Dòng đầu tiên của dữ liệu đầu vào chứa một số nguyên $t$ ($1 \le t \le 100$—số lượng các trường hợp kiểm tra. Tiếp theo là $t$ dòng, mỗi dòng chứa một mô tả của một trường hợp kiểm tra. Các chuỗi được cho chỉ bao gồm các chữ cái Latin viết thường và có độ dài từ $1$ đến $100$ bao gồm.\\
+	\textbf{Dữ liệu ra: }\textbf{Ra FILE "bai3.out". Bao gồm: }Đối với mỗi trường hợp kiểm tra, xuất ra trên một dòng riêng biệt:"\textbf{YES}" nếu chuỗi trong trường hợp kiểm tra tương ứng là hình vuông, "\textbf{NO}" nếu không.\\
+	\textbf{Ràng buộc: } Ràng buộc chung: $1 \leq t \leq 100$. \\
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{1 giây (1000 ms); 512 MB}} \\
+	\textbf{Ví dụ: }
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{\textsf{\textit{bai3.in}}} & \textbf{\textsf{\textit{bai3.out}}} \\ % Đổi font cho tiêu đề bảng
+			\hline
+			\textit{\texttt{10}}               & \textit{\texttt{NO}}                \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{a}}                & \textit{\texttt{YES}}               \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{aa}}               & \textit{\texttt{NO}}                \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{aaa}}              & \textit{\texttt{YES}}               \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{aaaa}}             & \textit{\texttt{YES}}               \\
+			\textit{\texttt{abab}}             & \textit{\texttt{YES}}               \\
+			\textit{\texttt{abcabc}}           & \textit{\texttt{NO}}                \\
+			\textit{\texttt{abacaba}}          & \textit{\texttt{NO}}                \\
+			\textit{\texttt{xxyy}}             & \textit{\texttt{NO}}                \\
+			\textit{\texttt{xyyx}}             & \textit{\texttt{YES}}               \\
+			\textit{\texttt{xyxy}}             &                                     \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{ex}
+
+%Bài 4 
+\begin{ex}
+	\textbf{(4 điểm) MẢNG SỐ NGUYÊN KHÔNG GIẢM}\\
+	Bạn được cho hai mảng số nguyên $a$ và $b$ đều có độ dài $n$. Bạn có thể chọn bất kỳ tập con chỉ số nào và hoán đổi các phần tử ở những vị trí đó (tức là thực hiện swap($a_i$, $b_i$) cho mỗi $i$ trong tập con). Một tập con chỉ số được gọi là \textbf{tốt} nếu sau khi hoán đổi, cả hai mảng đều được sắp xếp theo thứ tự không giảm. Nhiệm vụ của bạn là tính số lượng tập con tốt. Vì kết quả có thể rất lớn, hãy in ra kết quả theo modulo $998244353$\\
+	\textbf{Dữ liệu vào: } \textbf{Từ FILE "bai4.in". Bao gồm: }\\
+	Dòng đầu tiên chứa một số nguyên $t$ ($1 \le t \le 500$) — số lượng bộ test. \\
+	Dòng đầu tiên của mỗi bộ test chứa một số nguyên $n$ ($1 \le n \le 100$).\\
+	Dòng thứ hai chứa $n$ số nguyên $a_1, a_2, \dots, a_n$ ($1 \le a_i \le 1000$). \\
+	Dòng thứ ba chứa $n$ số nguyên $b_1, b_2, \dots, b_n$ ($1 \le b_i \le 1000$).\\
+	Ràng buộc thêm: luôn tồn tại ít nhất một tập con tốt.\\
+	\textbf{Dữ liệu ra: } \textbf{Ra FILE "bai4.out". Bao gồm: } Với mỗi bộ test, in ra một số nguyên duy nhất — số lượng tập con tốt, lấy modulo $998244353$. \\
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{2 giây (2000 ms); 256 MB}} \\
+	\textbf{Ví dụ: }
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{\textsf{\textit{bai4.in}}} & \textbf{\textsf{\textit{bai4.out}}} \\ % Đổi font cho tiêu đề bảng
+			\hline
+			\textit{\texttt{3}}                & \textit{\texttt{2}}                 \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{3}}                & \textit{\texttt{2}}                 \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{2 1 4}}            & \textit{\texttt{8}}                 \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{1 3 2}}            &                                     \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{1}}                &                                     \\
+			\textit{\texttt{4}}                &                                     \\
+			\textit{\texttt{4}}                &                                     \\
+			\textit{\texttt{5}}                &                                     \\
+			\textit{\texttt{2 3 3 4 4}}        &                                     \\
+			\textit{\texttt{1 1 3 5 6}}        &                                     \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\textbf{Giải thích: }
+	\begin{itemize}
+		\item[$\star$] Trong ví dụ đầu tiên có $2$ tập con tốt: $\{1;3\}$ và $\{2\}$.
+		\item[$\star$] Trong ví dụ thứ hai, có $2$ tập con tốt: $\{1\}$ và $\{\}$.
+		\item[$\star$] Trong ví dụ thứ ba, có $8$ tập con tốt: $\{1;2;3;4;5\}; \{1;2;3\}; \{1;2;4;5\}; \{1;2\}; \{3;4;5\}; \{3\}; \{4;5\}$ và $\{\}$.
+	\end{itemize}
+\end{ex}
+
+%Bài 5
+\begin{ex}
+	\textbf{(4 điểm) HÃY CHỌN GIÁ ĐÚNG??}\\
+	Hãy tưởng tượng bạn là chủ một cửa hàng. Trước khi bắt đầu một mùa mới, bạn quyết định thanh lý hết hàng tồn kho, nên bạn quyết định tổ chức một đợt giảm giá tổng lực. Bạn có $n$ món hàng khác nhau trong cửa hàng: món hàng thứ $i$ có giá $c_i$ đồng. Mỗi món đều có một mác giá tương ứng $c_i$. Bạn quyết định giảm giá theo kiểu: "chúng ta sẽ chia tất cả giá thành $x$ lần." Nói chính xác hơn, bạn chọn một hệ số chung $x$, và trong đợt giảm giá, món hàng thứ $i$ sẽ có giá $\left\lceil \dfrac{c_i}{x} \right\rceil$ đồng (ở đây $\left\lceil y \right\rceil$ là làm tròn lên). Để tránh khách hàng bị rối, bạn cần dán lại mác giá mới cho tất cả món hàng, nhưng việc in mác mới rất tốn kém. Cụ thể, mỗi mác in ra sẽ tiêu tốn của bạn $y$ đồng. Vậy nên bạn nảy ra một ý tưởng tuyệt vời — tại sao không tận dụng các mác cũ rồi dán lại cho những món khác? Như vậy, bạn chỉ phải in mác mới cho những món không có mác phù hợp sẵn. Câu hỏi cuối cùng là: bạn nên giảm giá bao nhiêu, hay nói cách khác chọn $x$ thế nào? Hệ số $x$ phải là một số \textit{\textbf{nguyên}} lớn hơn hẳn $1$ sao cho tổng thu nhập là cao nhất. Tổng thu nhập được tính bằng tổng giá trị các món hàng trừ đi chi phí in mác mới. Hãy xác định tổng thu nhập tối đa có thể đạt được.\\
+	\textbf{Dữ liệu vào: } \textbf{Từ FILE "bai5.in". Bao gồm: }\\
+	Dòng đầu tiên chứa một số nguyên duy nhất $t$ ($1 \le t \le 10$) — số bộ test. \\
+	Dòng đầu mỗi bộ test gồm hai số nguyên $n$ và $y$ ($1 \le n \le 2 \cdot 10^5$; $1 \le y \le 10^9$) — số món hàng và chi phí in một mác giá. \\
+	Dòng tiếp theo gồm $n$ số nguyên $c_1, c_2, \dots, c_n$ ($1 \le c_i \le 2 \cdot 10^5$) — giá ban đầu của từng món hàng.\\
+	\textbf{Dữ liệu ra: } \textbf{Ra FILE "bai5.out". Bao gồm: }Với mỗi bộ test, in ra một số nguyên duy nhất — tổng thu nhập tối đa.\\
+	\textbf{Giới hạn thời gian, bộ nhớ: } \textbf{\textit{2 giây (2000 ms); 256 MB}} \\
+	\textbf{Một số ví dụ: }
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{\textsf{\textit{bai5.in}}}  & \textbf{\textsf{\textit{bai5.out}}} \\ % Đổi font cho tiêu đề bảng
+			\hline
+			\textit{\texttt{4}}                 & \textit{\texttt{31}}                \\ % Đổi font cho nội dung bảng
+			\textit{\texttt{5 51}}              & \textit{\texttt{-2999999937}}       \\
+			\textit{\texttt{50 150 50 148 150}} & \textit{\texttt{-162755}}           \\
+			\textit{\texttt{3 1000000000}}      & \textit{\texttt{3}}                 \\
+			\textit{\texttt{42 42 42}}          &                                     \\
+\textit{\texttt{10 54321}} & \\
+\textit{\texttt{1 8088 45 1 73 1 9198 4991 1 83}} & \\
+\textit{\texttt{3 100}} & \\
+\textit{\texttt{1 1 1}} & \\
+			\hline
+		\end{tabular}
+
+	\end{center}
+
+	\textbf{Lý giải: } Trong ví dụ đầu tiên, có thể kết nối $1$ với $2$ bằng cách sử dụng ưu đãi đặc biệt $2$, và sau đó kết nối $1$ với $3$ mà không cần sử dụng bất kỳ ưu đãi nào. \\
+	Trong hai ví dụ tiếp theo, câu trả lời tối ưu có thể đạt được mà không cần sử dụng các ưu đãi đặc biệt.
+\end{ex}
+
+
