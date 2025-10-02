@@ -25,16 +25,14 @@ int main()
     fast_io;
     ifstream cin("bai2.in");
     ofstream cout("bai2.out");
-    cin >> t;
-    while (t--)
-    {
-        for (long long i = 0; i < 4; i++)
-            cin >> a[i];
-        sort(a, a + 4);
-        long long c = a[3] - a[0];
-        long long d = a[2] - c;
-        long long e = a[3] - (c + d);
-        cout << c << " " << d << " " << e << endl;
-    }
+    for (long long i = 0; i < 4; i++)
+        cin >> a[i];
+    sort(a, a + 4);
+    long long c = a[3] - a[0];
+    long long d = a[2] - c;
+    long long e = a[3] - (c + d);
+    a[0] = c, a[1] = d, a[2] = e;
+    sort(a, a + 3);
+    cout << a[0] << " " << a[1] << " " << a[2] << endl;
     // getchar();
 }
