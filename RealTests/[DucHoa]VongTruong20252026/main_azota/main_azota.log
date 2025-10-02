@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.4)  2 OCT 2025 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.4)  3 OCT 2025 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1797,7 +1797,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  41624 strings out of 469608
  1013646 string characters out of 5474780
- 1549908 words of memory out of 5000000
+ 1549909 words of memory out of 5000000
  67550 multiletter control sequences out of 15000+600000
  641572 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1814,7 +1814,7 @@ xmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2025/texmf-dist/fonts/t
 ype1/vntex/vnr/vnitt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/vntex/vnr/vn
 r12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb><c:/texl
 ive/2025/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on main_azota.pdf (4 pages, 207533 bytes).
+Output written on main_azota.pdf (4 pages, 207466 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
